@@ -1,56 +1,426 @@
-<style>
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(97, 9, 9);
-  }
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 10px;
-  }
-  .navbar a:hover {
-    background-color: lightgray;
-  }
-  .navbar form {
-    display: flex;
-    align-items: center;
-  }
-  .navbar input[type="text"] {
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-  }
-  @media (max-width: 600px) {
-    .navbar {
-      flex-direction: column;
-    }
-    .navbar a {
-      margin: 10px 0;
-    }
-    .navbar form {
-      width: 80%;
-      margin: 10px auto;
-    }
-    .navbar input[type="text"] {
-      width: 100%;
-    }
-  }
-.imagemfundo{
-    display: center;
-    justify-content: center;
-    width: 20px;
-    height: 10px;
-    margin: center;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 
+#h1{
+  color: black;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#span1 {
+  color: black;
+  float: right;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#textdiv1{
+  height: 100px;
+}
+.imgdiv {
+  padding-top: 40px;
+  float: left;
+}
+
+#produtoimg {
+  width: 400px;
+}
+
+.samsungdiv{
+  float: left;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+#samsungh1{
+  color: black;
+  font-size: 25px;
+}
+
+#samsungh2{
+  color: black;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-right: 20px;
+  clear: both;
+  float: left;
+}
+
+.stars{
+  color: gold;
+  padding-top: 35px;
+}
+
+#commentspan{
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.addcart{
+  background-color: #428bca;
+  border-style: none;
+  padding: 10px 15px;
+}
+
+#addcartdiv{
+  clear: both;
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#loremipsumdiv{
+  float: right;
+  width: 650px;
+  border-top: 1px solid black;
+  padding-bottom: 100px;
+}
+
+.loremipsum{
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+/* Esta secção é pertencente à pagina mobile */
+
+#marca{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+#categoria{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+#ecra{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: black;
+}
+
+#filtrar{
+  clear: both;
+  float: right;
+  padding-top: 20px;
+}
+
+.filtrarbutton{
+  background-color: #428bca;
+  border-style: none;
+  padding: 10px 15px;
+  margin-right: 20px;
+}
+
+#itemsdiv{
+  float: left;
+  border-left: 1px solid black;
+  margin-top: 35px;
+}
+
+#filtrardiv{
+  float: left;
+}
+
+#mobile{
+  color: black;
+  padding-left: 20px;
+  float: left;
+  display: inline;
+  padding-right: 480px;
+  padding-top: 5px;
+}
+
+#promocoesdiv{
+  display: inline;
+  float: right;
+  padding-top: 10px;
+}
+
+#promocoesdiv2{
+  float: right;
+}
+
+.ordenarpor{
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+.promocoesdropdown{
+  padding: 3px;
+  width: 150px;
+}
+
+.mobileproducts{
+  float: left;
+  padding-right: 10px;
+  width: 200px;
+}
+
+.infospans{
+  float: left;
+}
+
+#phonesdiv{
+  padding-top: 40px;
+}
+
+.mobileinfo{
+  font-size: 15px;
+  font-family: Verdana;
+  padding-right: 25px;
+  float: left;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.mobilespan{
+  float: left;
+  color: black;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 25px;
+  padding-right: 120px;
+}
+
+#mobilespan1{
+  clear: both;
+  color: black;
+}
+
+#mobilespan2{
+  color: black;
+}
+
+#mobilespan3{
+  color: black;
+}
+
+#mobilespan4{
+  color: black;
+}
+
+.mobileinfodiv{
+  padding-top: 10px;
+}
+
+#motoroladiv{
+  clear: both;
+  float: left;
+
+}
+
+#motorolaspan{
+  clear: both;
+  float: left;
+}
+
+.motorolatext{
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+#motorolaprice{
+  clear: both;
+  float: left;
+  color: black;
+  padding-left: 25px;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 70px;
+}
 
 
+/* Esta secção é pertencente à pagina contactos */
 
 
+.formtext{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+}
 
+.formname{
+  float: left;
 
+  padding-left: 100px;
+}
 
+.formcontent{
+  float: right;
+
+  width: 500px;
+}
+
+.nomename{
+  float: left;
+  padding-top: 40px;
+}
+
+.nomecontent{
+  float: right;
+  margin-top: 35px;
+  padding: 5px;
+  width: 850px;
+}
+
+.emailname{
+  clear: both;
+  float: left;
+  padding-top: 40px;
+}
+
+.emailcontent{
+  float: right;
+  margin-top: 35px;
+  padding: 5px;
+  width: 850px;
+}
+
+.dataname{
+  clear: both;
+  float: left;
+  padding-top: 40px;
+}
+
+.datacontent{
+  float: right;
+  margin-top: 35px;
+  padding: 5px;
+  width: 850px;
+}
+
+#fullformdiv{
+  height: 720px;
+}
+
+#moradaform{
+  clear: both;
+  padding-top: 40px;
+}
+
+#fieldset{
+  padding-left: 10px;
+  height: 200px;
+}
+
+.morada{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+}
+
+.rua1{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  padding-top: 20px;
+  float: left;
+}
+
+.rua2{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  float: right;
+  padding: 5px;
+  margin-top: 15px;
+  width: 850px;
+  margin-right: 20px;
+}
+
+.numero1{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  clear: both;
+  float: left;
+  padding-top: 20px;
+}
+
+.numero2{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  float: right;
+  padding: 5px;
+  margin-top: 15px;
+  margin-right: 20px;
+  width: 850px;
+}
+
+.distrito{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  clear: both;
+  float: left;
+  padding-top: 20px;
+}
+
+.distrito2{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  float: right;
+  padding: 5px;
+  margin-top: 15px;
+  width: 850px;
+  margin-right: 35px;
+}
+
+#mensagemform{
+  padding-top: 40px;
+}
+
+.mensagemname{
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+}
+
+.textarea1{
+  float: right;
+}
+
+.enviar{
+  font-family: 'open sans', sans-serif;
+  float: right;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  color: white;
+  background: #428bca;
+  width: 90px;
+  display: inline;
+  text-decoration: none;
+  line-height: 5px;
+  clear: both;
+  margin-top: 20px;
+}
+
+/* extras */
+
+.paginainicial{
+  background-color: #428bca;
+}
+
+.mobilepage{
+  background-color: #428bca;
+}
+
+.contactospage{
+  background-color: #428bca;
+}
