@@ -1,0 +1,56 @@
+<style>
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(97, 9, 9);
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .navbar a:hover {
+    background-color: lightgray;
+  }
+  .navbar form {
+    display: flex;
+    align-items: center;
+  }
+  .navbar input[type="text"] {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .navbar a {
+      margin: 10px 0;
+    }
+    .navbar form {
+      width: 80%;
+      margin: 10px auto;
+    }
+    .navbar input[type="text"] {
+      width: 100%;
+    }
+  }
+.imagemfundo{
+    display: center;
+    justify-content: center;
+    width: 20px;
+    height: 10px;
+    margin: center;
+}
+
+
+
+
+
+
+
+
+
