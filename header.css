@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.div1{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+
+#headerdiv{
+    width: 1060px;
+    height: 50px;
+    background-color: #f2f2f2;
+}
+
+.container{
+    width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    margin-right: auto;
+    margin-left:auto;
+    height: 30px;
+}
+
+#headerlogo{
+    background: #f2f2f2;
+    width: 300px;
+    padding: 20px 100px 20px 20px;
+    float: left;
+    margin-left: 160px;
+}
+
+.opensans{
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+}
+
+#headersignin{
+    float: right;
+    padding-top: 20px ;
+    color:white;
+}
+
+#headerspan{
+    color: #999;
+}
+
+.headera{
+    text-decoration: none;
+    color: #333;
+}
+
+#searchdiv{
+    float: right;
+    width: 350px;
+    padding-top: 20px;
+    display: inline;
+    margin-left: 130px;
+}
+
+#formdiv{
+    padding-left: 15px;
+    width: 300px;
+}
+
+#form1{
+    float: right;
+    display: inline;
+}
+
+.lupadiv{
+    left: 0px;
+    margin-left: 2px;
+    background: #333;
+    width: 10px;
+    display: inline;
+}
+
+.lupa{
+    line-height: 10px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    background: #999;
+    color: white;
+    display: inline;
+}
+
+.carrinho{
+    font-family: 'open sans', sans-serif;
+    float: right;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    background: #428bca;
+    width: 90px;
+    display: inline;
+    text-decoration: none;
+    line-height: 5px;
+}
+
+.formbox{
+    height: 30px;
+    padding-left: 10px;
+    width: 180px;
+}
+
+#uldiv {
+    text-align: center;
+    /* height: 40px; */
+    height: auto;
+    background-color: #333;
+    /* display: flex; */
+}
+
+#ul1{
+    display: inline;
+}
+
+.li1 {
+    display: inline;
+    padding: 5px;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lia{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+}
+
+.li1:hover{
+    background-color: #428bca;
+}
