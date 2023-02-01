@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    /* box-sizing: border-box; */
 }
 
 .div1{
@@ -8,14 +9,14 @@
     background-color: #f2f2f2;
 }
 
+
 #headerdiv{
     width: 1060px;
-    height: 160px;
+    height: 50px;
     background-color: #f2f2f2;
 }
 
 .container{
-    width: 1550px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,8 +29,8 @@
 
 #headerlogo{
     background: #f2f2f2;
-    width: 300px;
-    padding: 20px 100px 20px 20px;
+    width: 150px;
+    padding: 20px 70px 20px 20px;
     float: left;
     margin-left: 160px;
 }
@@ -114,8 +115,10 @@
 
 #uldiv {
     text-align: center;
-    height: 40px;
+    /* height: 40px; */
+    height: auto;
     background-color: #333;
+    /* display: flex; */
 }
 
 #ul1{
@@ -124,8 +127,7 @@
 
 .li1 {
     display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px;
 }
 
 .verdana {
@@ -136,12 +138,12 @@
     text-transform: uppercase;
     color: white;
     text-decoration: none;
-    padding-left: 10px;
+    /* padding-left: 10px;
     padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
 }
 
-.lia:hover{
+.li1:hover{
     background-color: #428bca;
 }

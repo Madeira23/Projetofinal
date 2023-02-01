@@ -3,14 +3,14 @@
     margin: 0px;
 }
 
-#footerdiv2{
-    background-color: #333333;
-}
-
 #footerdiv{
     clear: both;
     width: 100%;
     height: 200px;
+    background-color: #333333;
+    display: flex;
+}
+#footerdiv2{
     background-color: #333333;
 }
 
